@@ -21,14 +21,15 @@ Current priority:
 
 ### Claude Workflow
 
-Status: setting up.
+Status: repository organization completed; Claude Code setup is next.
 
 Current priority:
 
-- Organize this repository.
-- Write a strong `CLAUDE.md`.
-- Set up memory files.
-- Later: install Claude Code, Skills, MCP servers, GitHub MCP, Mem0, CrewAI, and Fluent.
+- Pull the latest GitHub version to local machine.
+- Install Claude Code.
+- Open this repository with Claude Code.
+- Ask Claude Code to read `CLAUDE.md`, `memory/learning-state.md`, `memory/decisions.md`, and `memory/projects-log.md`.
+- After Claude Code works, install Skills and continue with the Group A install plan.
 
 ### Finance / Investing
 
@@ -74,12 +75,13 @@ Goal:
 
 ## Current Next Step
 
-Finish setting up this repository as a Claude-ready learning lab.
+Install Claude Code and open this repository with Claude Code.
 
-After that:
+Immediate checklist:
 
-1. Install Claude Code.
-2. Open this repository with Claude Code.
-3. Install Anthropic Skills.
-4. Add a basic learning memory workflow.
-5. Start the first small AI application project.
+1. Run `git pull origin main` locally.
+2. Install Claude Code.
+3. Verify `claude --version`.
+4. Open `C:\AI-Lab\ai-learning-lab` in terminal.
+5. Run `claude`.
+6. Use the opening prompt from `configs/claude-code-notes.md`.
